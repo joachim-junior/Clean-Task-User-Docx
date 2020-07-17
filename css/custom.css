@@ -4,6 +4,10 @@
     position: relative;
 }
 
+img {
+    width: 100%;
+}
+
 .sub-title {
     font-size: 30px;
     margin-top: 50px;
