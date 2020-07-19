@@ -252,7 +252,7 @@ h4 a {
 }
 
 .intro1 a {
-    color: #0E97EE !important;
+    color: #00c292 !important;
 }
 
 .intro a {
@@ -292,14 +292,14 @@ h4 a {
 }
 
 mark {
-    background-color: #0E97EE;
+    background-color: #00c292;
     color: #ffffff;
     padding: 0 10px;
 }
 
 a:focus,
 a:hover {
-    color: #0E97EE;
+    color: #00c292;
 }
 
 .intro2 i {
@@ -308,8 +308,8 @@ a:hover {
 }
 
 .intro2 {
-    background-color: #0E97EE;
-    border: 2px solid #2187BB;
+    background-color: #00c292;
+    border: 2px solid #00c292;
     border-radius: 5px;
     color: #ffffff;
     font-style: italic;
@@ -330,13 +330,13 @@ a:hover {
 }
 
 .btn-primary {
-    background-color: #0E97EE;
-    border: 1px solid #2187BB;
+    background-color: #00c292;
+    border: 1px solid #00c292;
 }
 
 .btn-primary:hover {
-    background-color: #2187BB;
-    border: 1px solid #0E97EE;
+    background-color: #00c292;
+    border: 1px solid #00c292;
 }
 
 .btn-info {
@@ -352,7 +352,7 @@ a:hover {
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-    background-color: #0E97EE;
+    background-color: #00c292;
     color: #fff;
 }
 
@@ -368,4 +368,20 @@ a:hover {
 
 .navbar-inverse li.btn a {
     color: #ffffff !important;
+}
+
+#admin-section {
+    display: none;
+}
+
+hr {
+    color: #00c292;
+}
+
+p {
+    color: rgb(19, 18, 18) !important;
+}
+
+li {
+    color: rgb(19, 18, 18) !important;
 }

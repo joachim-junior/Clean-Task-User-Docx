@@ -15,7 +15,7 @@
     <meta name="author" content="">
     <meta name="keywords" content="">
 
-    <title>Clean Task User Guide</title>
+    <title>Cleantask User Guide</title>
 
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
@@ -44,15 +44,16 @@
 
     <div id="wrapper">
 
-        <div class="container">
+        <div class="container" id="user-section">
 
             <section id="top" class="section docs-heading">
 
                 <div class="row">
                     <div class="col-md-12">
                         <div class="big-title text-center">
-                            <h1>Clean Task Management Platform</h1>
+                            <h1>Cleantask Project Management Platform</h1>
                             <p class="lead">Official User Documentation</p>
+                            <button id="admin-switch"> Switch to Admin Documentation</button>
                         </div>
                         <!-- end title -->
                     </div>
@@ -70,79 +71,204 @@
                 <div class="col-md-3">
                     <nav class="docs-sidebar" data-spy="affix" data-offset-top="300" data-offset-bottom="200" role="navigation">
                         <ul class="nav">
-                            <li><a href="#line1">Getting Started</a></li>
-                            <li><a href="#line2">How to Add a Project Team</a></li>
-                            <li><a href="#line3">How to Create a Project</a></li>
-                            <li><a href="#line4">How to Assign or Add Members to a Team </a></li>
-                            <li><a href="#line5">What is a Project State and How Do I Add a Project State</a></li>                            
-                            <li><a href="#line7">How To Configure Project Settings</a>
+                            <li><a href="#line1">- Getting Started</a></li>
+                            <li><a href="#line2">- How to Add a Project Team</a></li>
+                            <li><a href="#line3">- How to Create a Project</a></li>
+                            <li><a href="#line4">- How to Assign or Add Members to a Team </a></li>
+                            <li><a href="#line5">- What is a Project State and How Do I Add a Project State</a></li>                            
+                            <li><a href="#line7">- How To Configure Project Settings</a>
                                 <ul class="nav">
-                                    <li><a href="#settings1">Handling Permissions</a></li>
-                                    <li><a href="#settings2">Deleting a Team</a></li>
+                                    <li><a href="#setting1">- Changing Project Dashboard Background Image</a>
+                                    </li>
+                                    <li><a href="#setting2">- How to Change Project Dashboard Background Color</a></li>
+                                    <li><a href="#setting3">- How to Make a Project Public or Private</a></li>
+                                    <li><a href="#setting4">- How to Close a Project</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#part8">How to add Notes</a></li>
-                            <li><a href="#part9">How to upload a file</a></li>
-                            <li><a href="#part10">How to delete a folder/media</a></li>
-                            <li><a href="#part11">Knowledgebase Description</a></li>
+                            <li><a href="#line8">- How To Configure Team Settings</a>
+                                <ul class="nav">
+                                    <li><a href="#settings1">- Handling Permissions</a></li>
+                                    <li><a href="#settings2">- Deleting a Team</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#part8">- How to add Notes</a></li>
+                            <li><a href="#part9">- How to upload a file</a></li>
+                            <li><a href="#part10">- How to delete a folder/media</a></li>
+                            <li><a href="#part11">- Knowledgebase Description</a></li>
                         </ul>
                     </nav >
                 </div>
                 <div class="col-md-9">
-                    <section class="welcome">
+                    
+                  <section class="welcome">
 
-                        <div class="row">
-                            <div class="col-md-12 left-align">
-                                <h2 class="dark-text">Introduction<hr></h2>
-                                <div class="row">
+                    <div class="row">
+                        <div class="col-md-12 left-align">
+                            <h2 class="dark-text">Introduction<hr></h2>
+                            <div class="row">
 
-                                    <div class="col-md-12 full">
-                                        <!-- <div class="intro1">
-                                           
-                                        </div> -->
-
-                                        <hr>
-                                        <div>
-                                            <p>First of all, Thank you so much for purchasing this template and for being my loyal customer.
-                                                <strong>You are awesome!</strong>
-                                                <br> You are entitled to get free lifetime updates to this product + exceptional support from the author directly.
-                                            </p>
-
-                                            <p>This documentation is to help you regarding each step of customization. Please go through the documentation carefully to understand how this template is made and how to edit this properly. Basic HTML and CSS knowledge is required to customize this template. You may learn basics <a href="http://www.w3schools.com/" target="_blank">here</a>, <a href="https://developer.mozilla.org/" target="_blank">here</a> and <a href="http://learn.shayhowe.com/html-css/building-your-first-web-page/" target="_blank">here</a>. </p>
-
-                                            <h4>Requirements</h4>
-                                            <p>You will need the following sofwares to customize this template.</p>
-                                            <ol>
-                                                <li>Code Editing Software (eg: Dreamweaver, Sublime Text or Notepad)</li>
-                                                <li>Web Browser for testing (eg: Google Chrome or Mozilla Firefox)</li>
-                                                <li>FTP Tool to upload files to Server (eg: <a href="https://filezilla-project.org/download.php?type=client" target="_blank">FileZilla</a>) </li>
-                                            </ol>
-                                            <div class="intro2 clearfix">
-                                                <p><i class="fa fa-exclamation-triangle"></i> Be careful while editing the template. If not edited properly, the design layout may break completely.
-                                                    <br> No support is provided for faulty customization.
-                                                </p>
-                                            </div>
-
-                                        </div>
+                                <div class="col-md-12 full">
+                                    <div class="intro1">
+                                        <ul>
+                                            <li><strong>Item Name : </strong>Cleantask Project Management Platform Template</li>
+                                            <li><strong>Item Version : </strong> v 1.0</li>
+                                            <li><strong>Author  : </strong> <a href="#" target="_blank">X-sanja</a></li>
+                                            <li><strong>License : </strong> <a href="#" target="_blank">Un License</a></li>
+                                        </ul>
                                     </div>
 
+                                    <hr>
+                                    <div>
+                                        <p>First of all, Thank you so much for purchasing this software and for being my loyal customer.
+                                            <strong>You are awesome!</strong>
+                                            <br> You are entitled to get free lifetime updates to this product + exceptional support from the author directly.
+                                        </p>
+
+                                        <p>This documentation is to help you regarding each step of customization. Please go through the documentation carefully to understand how this software is made and how to edit and use this properly.</p>
+
+                                        <h4>Requirements</h4>
+                                        <p>You will need the following sofwares to customize this code.</p>
+                                        <ol>
+                                            <li>Code Editing Software (eg: Visual studio code, Sublime Text or Notepad)</li>
+                                            <li>Web Browser for testing (eg: Google Chrome or Mozilla Firefox)</li>
+                                            <li>FTP Tool to upload files to Server (eg: <a href="https://filezilla-project.org/download.php?type=client" target="_blank">FileZilla</a>) </li>
+                                        </ol>
+                                        <div class="intro2 clearfix">
+                                            <p><i class="fa fa-exclamation-triangle"></i> Be careful while editing the code. If not edited properly, the software may break completely.
+                                                <br> No support is provided for faulty customization.
+                                            </p>
+                                        </div>
+
+                                    </div>
                                 </div>
-                                <!-- end row -->
-                            </div>
-                        </div>
-                    </section>
 
-                    <section id="line1" class="section">
-
-                        <div class="row">
-                            <div class="col-md-12 left-align">
-                                <h2 class="dark-text">Getting Started <a href="#top">#back to top</a><hr></h2>
                             </div>
-                            <!-- end col -->
+                            <!-- end row -->
                         </div>
-                        <!-- end row -->
-                    </section>
-                    <!-- end section -->
+                    </div>
+                </section>
+
+                <section id="line1" class="section">
+
+                    <div class="row">
+                        <div class="col-md-12 left-align">
+                            <h2 class="dark-text">Installation <a href="#top">#back to top</a><hr></h2>
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>To properly install this code, Follow the steps provided below.</p>
+
+                            <h4>Step 1: Code Upload</h4>
+                            <p>Upload the zip file to your server and extract it at the root of your web server or in a subdomain of your choice. You should have a structure similar to this:</p>
+                            <img src="images/upload/file_tructure.png" alt="">
+                            
+                            <h4>Step 2: Base Configuration</h4>
+                            <p>Open the file found at <b>application/config/config.php</b> and replace <b>' your website url '</b> with your website url.</p>
+                            <pre class="brush: php; highlight: [9, 22]">
+                                /*
+                                |--------------------------------------------------------------------------
+                                | Base Site URL
+                                |--------------------------------------------------------------------------
+                                |
+                                | URL to your CodeIgniter root. Typically this will be your base URL,
+                                | WITH a trailing slash:
+                                |
+                                |	http://example.com/
+                                |
+                                | WARNING: You MUST set this value!
+                                |
+                                | If it is not set, then CodeIgniter will try guess the protocol and path
+                                | your installation, but due to security concerns the hostname will be set
+                                | to $_SERVER['SERVER_ADDR'] if available, or localhost otherwise.
+                                | The auto-detection mechanism exists only for convenience during
+                                | development and MUST NOT be used in production!
+                                |
+                                | If you need to allow multiple domains, remember that this file is still
+                                | a PHP script and you can easily do that on your own.
+                                */
+                                $config['base_url'] = ' your website url ';
+                            </pre>
+
+                            <h4>Step 3: Database Configuration</h4>
+                            <p>Create a database and Import the file <b>cleantask.sql</b> into the database. After that, Open the file found at <b>application/config/database.php</b> and provide your database configurations.</p>
+                            <pre class="brush: php; highlight: [3, 4, 5, 6]">
+                                $db['default'] = array(
+                                    'dsn'	=> '',
+                                    'hostname' => 'localhost',
+                                    'username' => 'root',
+                                    'password' => '',
+                                    'database' => 'cleantask',
+                                    'dbdriver' => 'mysqli',
+                                    'dbprefix' => '',
+                                    'pconnect' => FALSE,
+                                    'db_debug' => (ENVIRONMENT !== 'production'),
+                                    'cache_on' => FALSE,
+                                    'cachedir' => '',
+                                    'char_set' => 'utf8',
+                                    'dbcollat' => 'utf8_general_ci',
+                                    'swap_pre' => '',
+                                    'encrypt' => FALSE,
+                                    'compress' => FALSE,
+                                    'stricton' => FALSE,
+                                    'failover' => array(),
+                                    'save_queries' => TRUE
+                                );
+                            </pre>
+
+                            <h4>Step 4: Permissions</h4>
+                            <p>Make sure the <b>uploads</b> folder has as Permissions <b>777</b></p>
+
+                            <h4>Step 5: Final Step</h4>
+                            <p>The setup is complete, Navigate to <b>your-url</b> and login with the default admin credentials: 
+                                <div> <h5>Email: <b>admin@admin.com</b></h5></div>
+                                <div> <h5>Password: <b>password</b></h5></div>
+                                <h5> After Login click on the user icon found top right and choose profile, Once there you can <b>change your Email and password</b>.</h5>
+                            </p>
+
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+
+                </section>
+                <!-- end section -->
+
+                <section id="line2" class="section">
+
+                    <div class="row">
+                        <div class="col-md-12 left-align">
+                            <h2 class="dark-text">Getting Started <a href="#top">#back to top</a><hr></h2>
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+
+                    <hr>
+
+                    <h4>Email Settings</h4>
+
+                    <p>To configure the email support, Open the file <b>application/config/email.php</b></p>
+                    <pre class="brush: php; highlight: [2, 3, 4, 5, 6, 7]">
+                        $config = array(
+                            'protocol' => '', // 'mail', 'sendmail', or 'smtp'
+                            'smtp_host' => '', 
+                            'smtp_port' => 465, // 465 for ssl smtp OR 25 for mail
+                            'smtp_user' => '', // example: me@example.com
+                            'smtp_pass' => '',
+                            'smtp_crypto' => '', // can be 'ssl' or 'tls' for example
+                            'mailtype' => 'html', // DO NOT CHANGE THIS
+                            'smtp_timeout' => '4', // DO NOT CHANGE THIS
+                            'charset' => 'iso-8859-1', // DO NOT CHANGE THIS
+                            'wordwrap' => TRUE // DO NOT CHANGE THIS
+                        );
+                    </pre>
+
+                </section>
+                <!-- end section -->
 
                     <section id="line2" class="section">
 
@@ -245,7 +371,7 @@
                         <h5>Like the name goes, a project state is simply Project State is a label applied to a project when it reaches a certain stage in its life cycle, such as when a project enters a new phase of development or passes a milestone in the approval process.</h5>
                         <h5>Project States are listed in approximately sequential order, so the list of associated Project States provides a sort of road map of the project development process. When a project enters the next phase of its life cycle, an administrator or Project Recorder assigns the next appropriate Project State to the project. Over time, the project is assigned a series of Project States to mark its progress from proposal to active development to approval and publication.</h5>
                         <h4>How to add a project state</h4>
-                        <h5>1. Click on the + button at the bottom left hand corner.</h5>
+                        <h5>1. Click on the + button at the bottom right hand corner.</h5>
                         <img src="images/upload/image4.png" alt="image4">
                         <h5>2. A modal will show up asking you to enter a project state title. Fill in the title and click on the <span class="text-bold text-info">'ADD STATE'</span> button</h5>
                         <h6> <span class="text-bold text-uppercase">Congratulations!</span> you just added a state to your project</h6>
@@ -273,28 +399,83 @@
                         </div>
 
                         <hr>
-                        <div id="settings1">
-                        <h4>Handling Permissions</h4>
-                        <h5>To handle permissions for a project, Do the following:</h5>
+                        <div id="setting1">
+                        <h4>Changing Project Dashboard Background Image</h4>
+                        <h5>Changing the background image for your project dashboard is quite easy.
+                          just follow along:</h5>
                         <ol>
                             <li>Navigate to the home page.</li>
-                            <li>Click on the team where your project belongs.</li>
-                            <li>Finally, click on the settings tab.</li>
+                            <li>Click on the toggle icon on the top right corner.</li>
+                            <img src="images/upload/section 2.png" alt="">
+                            <li>Finally, click on the Background tab.</li>
+                            <img src="images/upload/section5.png" alt="">
                         </ol>
                         </div>
-                        <div id="settings2">
-                        <h4>Deleting a Team</h4>
-                        <h5>To delete a team, follow the steps below.</h5>
-                        <ol>
-                            <li>Navigate to the home page.</li>
-                            <li>Click on the team where your project belongs.</li>
-                            <li>Finally, click on the settings tab.</li>
-                        </ol>
+                        <div id="setting2">
+                            <h4>Changing Project Dashboard Background Color</h4>
+                            <h5>Changing the background Color for your project dashbord is quite easy.
+                              just follow along:</h5>
+                            <ol>
+                                <li>Navigate to the home page.</li>
+                                <li>Click on the toggle icon on the top right corner.</li>
+                                <img src="images/upload/section 2.png" alt="">
+                                <li>Finally, click on the settings tab. Then click on Use background color</li>
+                                <img src="images/upload/Screenshot-2020-7-19 Project management tool Cleantask(1).png" alt="">
+                            </ol>
                         </div>
+                        <div id="setting3">
+                            <h4>How to Make a Project Public or Private</h4>
+                            <li>Click on the toggle icon on the top right corner.</li>
+                                <img src="images/upload/section 2.png" alt=""> <br/>
+                                <img src="images/upload/Screenshot-2020-7-19 Project management tool Cleantask(3).png" alt="">
+                            </div>
+                            <div id="setting4">
+                                <h4>How to Close a Project</h4>
+                                <li>Click on the toggle icon on the top right corner.</li>
+                                <li>Click on the close project button</li>
+                                <img src="images/upload/Screenshot-2020-7-19 Project management tool Cleantask.png" alt="">
+                                </div>
                       
                         <!-- end row -->
 
                     </section>
+                    <!-- end section -->
+                    <section id="line8" class="section">
+
+                            <div class="row">
+                                <div class="col-md-12 left-align">
+                                    <h2 class="dark-text">How To Configure Project Settings <a href="#top">#back to top</a><hr></h2>
+                                </div>
+                                <!-- end col -->
+                            </div>
+                            <div class="intro2 clearfix">
+                                <p><i class="fa fa-envelope"></i> To configure setings for a project is a relatively easy.
+                                    <br> Please just follow along with the steps below.</a> </p>
+                            </div>
+    
+                            <hr>
+                            <div id="settings1">
+                            <h4>Handling Permissions</h4>
+                            <h5>To handle permissions for a project, Do the following:</h5>
+                            <ol>
+                                <li>Navigate to the home page.</li>
+                                <li>Click on the team where your project belongs.</li>
+                                <li>Finally, click on the settings tab.</li>
+                            </ol>
+                            </div>
+                            <div id="settings2">
+                            <h4>Deleting a Team</h4>
+                            <h5>To delete a team, follow the steps below.</h5>
+                            <ol>
+                                <li>Navigate to the home page.</li>
+                                <li>Click on the team where your project belongs.</li>
+                                <li>Finally, click on the settings tab.</li>
+                            </ol>
+                            </div>
+                          
+                            <!-- end row -->
+    
+                        </section>
                     <section id="part8" class="section">
 
                         <div class="row">
@@ -337,14 +518,11 @@
                                 
                                     <li>On the pop up the appears click on “add files” and select the files to be uploaded and click “start upload”.</li>
                                 <strong>Note:</strong> Only a maximum of 5 files can be uploaded simultaneously.
-                                
-
                             </div>
-                        </div>
-
+                          </div>                  
                     </section>
-                    <section id="part10" class="section">
-
+                    <section id="part10" class="section"> <section class="welcome">
+                        
                         <div class="row">
                             <div class="col-md-12 left-align">
                                 <h2 class="dark-text">How to delete a folder/media<a href="#top">#back to top</a><hr></h2>
@@ -423,9 +601,559 @@
         </div>
         <!-- // end container -->
 
+        <div class="container" id="admin-section" >
+            <section id="top" class="section docs-heading">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="big-title text-center">
+                    <h1>Cleantask Management Platform</h1>
+                    <p class="lead">Official User Documentation</p>
+                    <p class="lead">Admin User Guide</p>
+                    <button id="user-switch">Return to User guide</button>
+                  </div>
+                  <!-- end title -->
+                </div>
+                <!-- end 12 -->
+              </div>
+              <!-- end row -->
+    
+              <hr />
+            </section>
+            <!-- end section -->
+    
+            <div class="row">
+              <div class="col-md-3">
+                <nav
+                  class="docs-sidebar"
+                  data-spy="affix"
+                  data-offset-top="300"
+                  data-offset-bottom="200"
+                  role="navigation"
+                >
+                  <ul class="nav">
+                    <li><a href="#section1">- Getting Started</a></li>
+                    <li><a href="#section2">- How to Add a New User</a></li>
+                    <li><a href="#section3">- Activate and Deactivate a User</a></li>
+                    <li><a href="#section4">- How to Add a Client</a></li>
+                    <li>
+                      <a href="#section5">- Activate and Deactivate a Client</a>
+                    </li>
+                    <li><a href="#section6">- Settings Configuration</a></li>
+                    <li>
+                      <a href="#section7"
+                        >- Manipulating Frequently Asked Questions (FAQ)</a
+                      >
+                    </li>
+                    <li><a href="#section8">- Knowledge Base</a></li>
+                    <li><a href="#section9">- Working with Projects</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="col-md-9">
+                  <section class="welcome">
+
+                      <div class="row">
+                          <div class="col-md-12 left-align">
+                              <h2 class="dark-text">Introduction<hr></h2>
+                              <div class="row">
+  
+                                  <div class="col-md-12 full">
+                                      <div class="intro1">
+                                          <ul>
+                                              <li><strong>Item Name : </strong>Cleantask Project Management Platform Template</li>How to Change Project Dashboard Background Color
+                                              <li><strong>Item Version : </strong> v 1.0</li>
+                                              <li><strong>Author  : </strong> <a href="#" target="_blank">X-sanja</a></li>
+                                              <li><strong>License : </strong> <a href="#" target="_blank">Un License</a></li>
+                                          </ul>
+                                      </div>
+  
+                                      <hr>
+                                      <div>
+                                          <p>First of all, Thank you so much for purchasing this software and for being my loyal customer.
+                                              <strong>You are awesome!</strong>
+                                              <br> You are entitled to get free lifetime updates to this product + exceptional support from the author directly.
+                                          </p>
+  
+                                          <p>This documentation is to help you regarding each step of customization. Please go through the documentation carefully to understand how this software is made and how to edit and use this properly.</p>
+  
+                                          <h4>Requirements</h4>
+                                          <p>You will need the following sofwares to customize this code.</p>
+                                          <ol>
+                                              <li>Code Editing Software (eg: Visual studio code, Sublime Text or Notepad)</li>
+                                              <li>Web Browser for testing (eg: Google Chrome or Mozilla Firefox)</li>
+                                              <li>FTP Tool to upload files to Server (eg: <a href="https://filezilla-project.org/download.php?type=client" target="_blank">FileZilla</a>) </li>
+                                          </ol>
+                                          <div class="intro2 clearfix">
+                                              <p><i class="fa fa-exclamation-triangle"></i> Be careful while editing the code. If not edited properly, the software may break completely.
+                                                  <br> No support is provided for faulty customization.
+                                              </p>
+                                          </div>
+  
+                                      </div>
+                                  </div>
+  
+                              </div>
+                              <!-- end row -->
+                          </div>
+                      </div>
+                  </section>
+  
+                  <section id="line1" class="section">
+  
+                      <div class="row">
+                          <div class="col-md-12 left-align">
+                              <h2 class="dark-text">Installation <a href="#top">#back to top</a><hr></h2>
+                          </div>
+                          <!-- end col -->
+                      </div>
+                      <!-- end row -->
+  
+                      <div class="row">
+                          <div class="col-md-12">
+                              <p>To properly install this code, Follow the steps provided below.</p>
+  
+                              <h4>Step 1: Code Upload</h4>
+                              <p>Upload the zip file to your server and extract it at the root of your web server or in a subdomain of your choice. You should have a structure similar to this:</p>
+                              <img src="images/upload/file_tructure.png" alt="">
+                              
+                              <h4>Step 2: Base Configuration</h4>
+                              <p>Open the file found at <b>application/config/config.php</b> and replace <b>' your website url '</b> with your website url.</p>
+                              <pre class="brush: php; highlight: [9, 22]">
+                                  /*
+                                  |--------------------------------------------------------------------------
+                                  | Base Site URL
+                                  |--------------------------------------------------------------------------
+                                  |
+                                  | URL to your CodeIgniter root. Typically this will be your base URL,
+                                  | WITH a trailing slash:
+                                  |
+                                  |	http://example.com/
+                                  |
+                                  | WARNING: You MUST set this value!
+                                  |
+                                  | If it is not set, then CodeIgniter will try guess the protocol and path
+                                  | your installation, but due to security concerns the hostname will be set
+                                  | to $_SERVER['SERVER_ADDR'] if available, or localhost otherwise.
+                                  | The auto-detection mechanism exists only for convenience during
+                                  | development and MUST NOT be used in production!
+                                  |
+                                  | If you need to allow multiple domains, remember that this file is still
+                                  | a PHP script and you can easily do that on your own.
+                                  */
+                                  $config['base_url'] = ' your website url ';
+                              </pre>
+  
+                              <h4>Step 3: Database Configuration</h4>
+                              <p>Create a database and Import the file <b>cleantask.sql</b> into the database. After that, Open the file found at <b>application/config/database.php</b> and provide your database configurations.</p>
+                              <pre class="brush: php; highlight: [3, 4, 5, 6]">
+                                  $db['default'] = array(
+                                      'dsn'	=> '',
+                                      'hostname' => 'localhost',
+                                      'username' => 'root',
+                                      'password' => '',
+                                      'database' => 'cleantask',
+                                      'dbdriver' => 'mysqli',
+                                      'dbprefix' => '',
+                                      'pconnect' => FALSE,
+                                      'db_debug' => (ENVIRONMENT !== 'production'),
+                                      'cache_on' => FALSE,
+                                      'cachedir' => '',
+                                      'char_set' => 'utf8',
+                                      'dbcollat' => 'utf8_general_ci',
+                                      'swap_pre' => '',
+                                      'encrypt' => FALSE,
+                                      'compress' => FALSE,
+                                      'stricton' => FALSE,
+                                      'failover' => array(),
+                                      'save_queries' => TRUE
+                                  );
+                              </pre>
+  
+                              <h4>Step 4: Permissions</h4>
+                              <p>Make sure the <b>uploads</b> folder has as Permissions <b>777</b></p>
+  
+                              <h4>Step 5: Final Step</h4>
+                              <p>The setup is complete, Navigate to <b>your-url</b> and login with the default admin credentials: 
+                                  <div> <h5>Email: <b>admin@admin.com</b></h5></div>
+                                  <div> <h5>Password: <b>password</b></h5></div>
+                                  <h5> After Login click on the user icon found top right and choose profile, Once there you can <b>change your Email and password</b>.</h5>
+                              </p>
+  
+                          </div>
+                          <!-- end col -->
+                      </div>
+                      <!-- end row -->
+  
+                  </section>
+                  <!-- end section -->
+  
+                  <section id="line2" class="section">
+  
+                      <div class="row">
+                          <div class="col-md-12 left-align">
+                              <h2 class="dark-text">Getting Started <a href="#top">#back to top</a><hr></h2>
+                          </div>
+                          <!-- end col -->
+                      </div>
+                      <!-- end row -->
+  
+                      <hr>
+  
+                      <h4>Email Settings</h4>
+  
+                      <p>To configure the email support, Open the file <b>application/config/email.php</b></p>
+                      <pre class="brush: php; highlight: [2, 3, 4, 5, 6, 7]">
+                          $config = array(
+                              'protocol' => '', // 'mail', 'sendmail', or 'smtp'
+                              'smtp_host' => '', 
+                              'smtp_port' => 465, // 465 for ssl smtp OR 25 for mail
+                              'smtp_user' => '', // example: me@example.com
+                              'smtp_pass' => '',
+                              'smtp_crypto' => '', // can be 'ssl' or 'tls' for example
+                              'mailtype' => 'html', // DO NOT CHANGE THIS
+                              'smtp_timeout' => '4', // DO NOT CHANGE THIS
+                              'charset' => 'iso-8859-1', // DO NOT CHANGE THIS
+                              'wordwrap' => TRUE // DO NOT CHANGE THIS
+                          );
+                      </pre>
+  
+                  </section>
+                  <!-- end section -->
+    
+                <section id="section2" class="section">
+                  <div class="row">
+                    <div class="col-md-12 left-align">
+                      <h2 class="dark-text">
+                        How to Add a New User <a href="#top">#back to top</a>
+                        <hr />
+                      </h2>
+                    </div>
+                    <!-- end col -->
+                  </div>
+                  <!-- end row -->
+    
+                  <p>
+                    You can add a user to the platform through an invitation. This
+                    invitation is sent to them through email as a link. When they
+                    click on this link, they will be redirected to a registration
+                    form on the platform, where they can fill in their details and
+                    are automatically added. <br /><br />
+    
+                    The details of sending an invitation is shown below:
+                  </p>
+                  <ol>
+                    <li>Click the invite user button</li>
+                    <li>
+                      Fill in the user's email in the box and click the 'invite
+                      user' button.
+                    </li>
+                  </ol>
+    
+                  <div class="row">
+                    <div class="col-md-12">
+                      <img
+                        src="images/upload/add-user.png"
+                        alt="how to add a user"
+                      />
+                    </div>
+                  </div>
+                  <br />
+                  <div class="row">
+                    <div class="col-md-12">
+                      <img
+                        src="images/upload/add-user-email.png"
+                        alt="how to add a user"
+                      />
+                    </div>
+                  </div>
+                </section>
+                <!-- end section -->
+    
+                <section id="section3" class="section">
+                  <div class="row">
+                    <div class="col-md-12 left-align">
+                      <h2 class="dark-text">
+                        Activate and Deactivate a User
+                        <a href="#top">#back to top</a>
+                        <hr />
+                      </h2>
+                    </div>
+                    <!-- end col -->
+                    <div class="col-md-12">
+                      <img
+                        src="images/upload/activate-user.png"
+                        alt="how to activate/deactivate a user"
+                      />
+                    </div>
+                  </div>
+                  <!-- end row -->
+    
+                  <p>
+                    Deactivating a user will disable them from logging into the
+                    platform. The opposite is true for activating a user.<br />
+                    To deactivate a user, click on the red button. Click on the
+                    button again (now green) to activate the user.
+                  </p>
+                </section>
+                <!-- end section -->
+    
+                <section id="section4" class="section">
+                  <div class="row">
+                    <div class="col-md-12 left-align">
+                      <h2 class="dark-text">
+                        How to Add a Client <a href="#top">#back to top</a>
+                        <hr />
+                      </h2>
+                    </div>
+                    <!-- end col -->
+                  </div>
+                  <!-- end row -->
+    
+                  <div class="row">
+                    <div class="col-md-12">
+                      <p>
+                        Clients can be included to a team/project so that they can
+                        view the progress of their work. To do so, you can send them
+                        an invitation link through email, inviting them to register
+                        on the platform by filling in their details. <br /><br />
+    
+                        The procedure is shown below:
+                      </p>
+                      <ol>
+                        <li>Click the invite client button</li>
+                        <li>
+                          Fill in the client's email in the box and click the
+                          'invite user' button.
+                        </li>
+                      </ol>
+                    </div>
+                  </div>
+    
+                  <div class="row">
+                    <div class="col-md-12">
+                      <img
+                        src="images/upload/add-client.png"
+                        alt="how to add a client"
+                      />
+                    </div>
+                  </div>
+                  <br />
+                  <div class="row">
+                    <div class="col-md-12">
+                      <img
+                        src="images/upload/add-client-email.png"
+                        alt="how to add a client"
+                      />
+                    </div>
+                  </div>
+                  <!-- end row -->
+                </section>
+                <!-- end section -->
+    
+                <section id="section5" class="section">
+                  <div class="row">
+                    <div class="col-md-12 left-align">
+                      <h2 class="dark-text">
+                        Activate and Deactivate a Client
+                        <a href="#top">#back to top</a>
+                        <hr />
+                      </h2>
+                    </div>
+                    <!-- end col -->
+                  </div>
+                  <!-- end row -->
+    
+                  <div class="row">
+                    <div class="col-md-12">
+                      <p>
+                        Deactivating a client will disable them from logging into
+                        the platform, hence they won't be able to view the progress
+                        of their projects. Activating a client will enable them to
+                        view their project progress.<br />
+                        To deactivate a client, click on the red button. Click on
+                        the button again to activate the client.
+                      </p>
+                    </div>
+    
+                    <div class="col-md-12">
+                      <img
+                        src="images/upload/activate-client.png"
+                        alt="how to activate/deactivate a client"
+                      />
+                    </div>
+                  </div>
+                  <!-- end row -->
+                </section>
+                <!-- end section -->
+    
+                <section id="section6" class="section">
+                  <div class="row">
+                    <div class="col-md-12 left-align">
+                      <h2 class="dark-text">
+                        Settings Configuration
+                        <a href="#top">#back to top</a>
+                        <hr />
+                      </h2>
+                    </div>
+                    <!-- end col -->
+                  </div>
+                  <!-- end row -->
+    
+                  <div class="row">
+                    <div class="col-md-12">
+                      <p>
+                        A few settings are available for customization.
+                      </p>
+                    </div>
+    
+                    <div class="col-md-6">
+                      <img
+                        src="images/upload/settings-frontend.png"
+                        alt=""
+                        class="img-responsive img-thumbnail"
+                      />
+                      <h4>Frontend Settings</h4>
+                      <ul>
+                        <li>
+                          To change the platform name, just type the new name and
+                          save the settings.
+                        </li>
+                        <li>
+                          To modify the website primary color, click on the color
+                          and select from the available colors. The same can be done
+                          for the default projects background color.
+                        </li>
+                      </ul>
+                    </div>
+                    <!-- end col -->
+    
+                    <div class="col-md-6">
+                      <img
+                        src="images/upload/settings-notice.png"
+                        alt=""
+                        class="img-responsive img-thumbnail"
+                      />
+                      <h4>Notice Message</h4>
+                      <p>
+                        You can set a default notice message for users under you
+                        team. Check the appropriate box to determine which group of
+                        users receive the message. <br />
+                        You can also change the background color of the display, the
+                        message title, icon and body.
+                      </p>
+                    </div>
+                    <!-- end col -->
+                  </div>
+                  <!-- end row -->
+                </section>
+                <!-- end section -->
+    
+                <section id="section7" class="section">
+                  <div class="row">
+                    <div class="col-md-12 left-align">
+                      <h2 class="dark-text">
+                        Manipulating Frequently Asked Questions (FAQ)
+                        <a href="#top">#back to top</a>
+                        <hr />
+                      </h2>
+                    </div>
+                    <!-- end col -->
+                  </div>
+                  <!-- end row -->
+    
+                  <div class="row">
+                    <div class="col-md-12">
+                      <p>
+                        FAQs are useful for those using the platform. You can add
+                        FAQs to the platform through the FAQ tab. Use the 'add a
+                        faq' button to do so. You can also edit or delete a FAQ.
+                      </p>
+                      <img
+                        src="images/upload/faq.png"
+                        alt=""
+                        class="img-responsive img-thumbnail"
+                      />
+                    </div>
+                    <!-- end col -->
+                  </div>
+                  <!-- end row -->
+                </section>
+                <!-- end section -->
+    
+                <section id="section8" class="section">
+                  <div class="row">
+                    <div class="col-md-12 left-align">
+                      <h2 class="dark-text">
+                        Knowledge Base <a href="#top">#back to top</a>
+                        <hr />
+                      </h2>
+                    </div>
+                    <!-- end col -->
+                  </div>
+                  <!-- end row -->
+    
+                  <div class="row">
+                    <div class="col-md-12">
+                      <p>
+                        The Knowledge is where users (members of a project) will go
+                        to in order to get technical knowledge and awareness on the
+                        topics which concern your team and/or project. You can add
+                        categories and content to it. You can also edit or delete a
+                        category (topic).
+                      </p>
+    
+                      <p>
+                        Please visit the Knowledge Base section of the user guide to know more.
+                      </p>
+                    </div>
+                    <div class="col-md-12">
+                      <img
+                        src="images/upload/knowledge-base.png"
+                        
+                        alt="manipulating the knowledge base"
+                      />
+                    </div>
+                  </div>
+                  <!-- end row -->
+                </section>
+                <!-- end section -->
+    
+                <section id="section9" class="section">
+                  <div class="row">
+                    <h2 class="dark-text">
+                      Working with Projects <a href="#top">#back to top</a>
+                      <hr />
+                    </h2>
+                    <!-- end col -->
+                  </div>
+                  <!-- end row -->
+    
+                  <div class="row">
+                    <div class="col-md-12">
+                      <img
+                        src="images/upload/projects.png"
+                        alt="Working with projects"
+                      />
+                    </div>
+                    <div class="col-md-12">
+                      <p>
+                        Do visit the User Guide to know how to work with projects.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- end row -->
+                </section>
+                <!-- end section -->
+              </div>
+              <!-- // end .col -->
+            </div>
+            <!-- // end .row -->
+        </div>
+          
+          
+
     </div>
     <!-- end wrapper -->
-
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/retina.js"></script>
@@ -438,6 +1166,8 @@
     <script src="js/main.js"></script>
 
     <script src="js/syntax-highlighter/scripts/shCore.js"></script>
+    <script src="js/syntax-highlighter/scripts/shBrushPhp.js"></script>
+    <script src="js/syntax-highlighter/scripts/shBrushBash.js"></script>
     <script src="js/syntax-highlighter/scripts/shBrushXml.js"></script>
     <script src="js/syntax-highlighter/scripts/shBrushCss.js"></script>
     <script src="js/syntax-highlighter/scripts/shBrushJScript.js"></script>
